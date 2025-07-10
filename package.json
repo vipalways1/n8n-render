@@ -4,6 +4,10 @@
   "description": "Self-hosted n8n on Render",
   "scripts": {
     "start": "npm install --legacy-peer-deps && docker compose up -d"
+    
   }
+  "dependencies": {
+  "n8n": "^1.44.0"
+}
 }
 
