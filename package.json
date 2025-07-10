@@ -6,6 +6,7 @@
     "start": "n8n start"
   },
   "dependencies": {
-    "n8n": "^1.44.0"
+    "n8n": "^1.44.0",
+    "ajv": "^8.12.0"
   }
 }
