@@ -1,13 +1,11 @@
 {
   "name": "n8n-render",
   "version": "1.0.0",
-  "description": "Self-hosted n8n on Render",
+  "main": "index.js",
   "scripts": {
-    "start": "npm install --legacy-peer-deps && docker compose up -d"
-    
-  }
+    "start": "n8n start"
+  },
   "dependencies": {
-  "n8n": "^1.44.0"
+    "n8n": "^1.44.0"
+  }
 }
-}
-
